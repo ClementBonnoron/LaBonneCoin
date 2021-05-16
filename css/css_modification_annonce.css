@@ -1,0 +1,138 @@
+body{
+  background-image: url(../image/fond_ecran.jpg);
+}
+
+/*
+ * 
+ * CSS DU FORMULAIRE
+ * 
+ */
+
+.formulaire>form,.page_accueil{
+  position:absolute;
+  z-index:10;
+}
+
+.formulaire > form{
+  right:20%;
+  left:20%;
+  height:65%;
+  padding:2%;
+  border:6px black double;
+  top:50%;
+  width:auto;
+  text-align:center;
+  background-color:#AA68EC;
+}
+
+.annonce>label{
+  padding-bottom:20%;
+  font-style:red underline;
+}
+
+.text{
+  width:40%;
+  text-align:left;
+}
+
+.input{
+  position:absolute;
+  text-align:right;
+  bottom:5%;
+  right:5%;
+}
+
+.description{
+  width:50%;
+  height:100px;
+}
+
+.page_accueil > a{
+  text-decoration:red underline;
+  color:red;
+}
+
+.page_accueil{
+  bottom:-40%;
+  right:5%;
+}
+
+.input_off{
+  border:none;
+  text-align:right;
+}
+
+.input_off:focus{
+  outline:none;
+}
+
+/*
+ * 
+ * CSS DE LA BARRE DE FOND ET TETE DE PAGE POUR INFORMATION SUPPLEMENTAIRES
+ *  
+ */
+
+.page_accueil{
+  position:absolute;
+  bottom:-40%;
+  right:5%;
+  color:red;
+}
+
+
+.head{
+  position:absolute;
+  background-image: url(../image/head_page.jpg);
+	background-repeat: no-repeat;
+  background-size:100%;
+  height:25%;
+  top:0%;
+  right:0%;
+  left:0%;
+  border:1px black solid;
+  text-align:center;
+  font-size:xx-large;
+  border:1px grey solid;
+  background-color:grey;
+  color:black;
+}
+
+.footer>a{
+  text-decoration:none;
+  color:white;
+}
+
+.footer{
+  position:absolute;
+  padding-top:5px;
+  bottom:-75%;
+  left:0px;
+  right:0px;
+  height:15%;
+  text-align:center;
+  border:1px grey solid;
+  background-color:grey;
+  color:white;
+}
+
+.footer>a:hover{
+  color:white;
+  text-decoration:underline;
+}
+
+/*
+ * 
+ * Erreur
+ * 
+ */
+
+.erreur,.change,.conf_change{
+  position:absolute;
+  text-align:center;
+  padding-top:4%;
+  top:40%;
+  left:33%;
+  right:33%;
+  bottom:40%;
+  background-color:white;
+}

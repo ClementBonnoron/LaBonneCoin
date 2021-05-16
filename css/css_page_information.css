@@ -1,0 +1,128 @@
+body{
+  background-image: url(../image/fond_ecran.jpg);
+}
+
+table{
+  border-collapse:collapse;
+  width:100%;
+  height:100%;
+}
+
+tr{
+  border-collapse:collapse;
+}
+
+td{
+  border:1px black solid;
+  border-collapse:collapse;
+  padding:1%;
+  width:33%;
+}
+
+.affichage_annonce{
+  position:absolute;
+  z-index:10;
+  background-color:white;
+  height:90%;
+  width:50%;
+  left:25%;
+  right:25%;
+  top:45%;
+}
+
+.image{
+  width:100%;
+  height:100%;
+  background: #f2f2f2;
+  font-size:smaller;
+}
+
+.prix{
+  position:relative;
+  float:right;
+  margin-right:5%;
+}
+
+/*
+ * 
+ * CSS DE LA BARRE DE FOND ET TETE DE PAGE POUR INFORMATION SUPPLEMENTAIRES
+ *  
+ */
+ 
+.page_accueil{
+  position:absolute;
+  z-index:10;
+ }
+ 
+.page_accueil > a{
+  text-decoration:red underline;
+  color:red;
+}
+
+.page_accueil{
+  bottom:-50%;
+  right:5%;
+}
+
+.head{
+  position:absolute;
+  background-image: url(../image/head_page.jpg);
+	background-repeat: no-repeat;
+  background-size:100%;
+  height:25%;
+  top:0%;
+  right:0%;
+  left:0%;
+  border:1px black solid;
+  text-align:center;
+  font-size:xx-large;
+  border:1px grey solid;
+  background-color:grey;
+  color:black;
+}
+
+.footer>a{
+  text-decoration:none;
+  color:white;
+}
+
+.footer{
+  position:absolute;
+  margin-bottom:0px;
+  padding-top:5px;
+  bottom:-75%;
+  left:0%;
+  right:0%;
+  width:100%;
+  height:15%;
+  text-align:center;
+  border:1px grey solid;
+  background-color:grey;
+  color:white;
+}
+
+.footer>a:hover{
+  color:white;
+  text-decoration:underline;
+}
+
+/*
+ * 
+ * Erreur
+ * 
+ */
+
+.erreur{
+  position:absolute;
+  z-index:10;
+  border:4px black double;
+  height:60%;
+  width:50%;
+  left:25%;
+  right:25%;
+  top:45%;
+  text-align:center;
+  padding-top:5%;
+  color:black;
+  background-color:white;
+}

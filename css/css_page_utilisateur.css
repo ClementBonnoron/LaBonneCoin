@@ -1,0 +1,284 @@
+body{
+  background-image: url(../image/fond_ecran.jpg);
+}
+
+/*
+ * 
+ * CSS POUR ICONE INSCRIPTION / CONNEXION
+ * 
+ */
+ 
+.icone_inscription,.icone_connexion,.validation_connexion,.poster_annonce{
+  position:absolute;
+  z-index:10;
+  font-size:100%;
+}
+
+.icone_inscription{
+  top:45%;
+  right:5%;
+  border:1px black solid;
+  width:10%;
+  text-align:center;
+}
+
+.icone_connexion{
+  top:30%;
+  right:5%;
+  width:21%;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+.validation_connexion{
+  top:42%;
+  right:25%;
+  width:3%;
+}
+
+.affichage_inscrit{
+  position:absolute;
+  z-index:10;
+  border:1px black solid;
+  top:33%;
+  margin-left:2%;
+  width:25%;
+  height:60%;
+  position:center;
+  overflow:scroll;
+  background-color:#E0E6E3;
+}
+
+ul{
+  margin-bottom:2%;
+}
+
+.head_div{
+  overflow:none;
+  position:relative;
+  text-align:center;
+  padding-top:5%;
+  border-bottom:1px black solid;
+  top:0%;
+  left:0%;
+  right:0%;
+  height:8%;
+  background-color:grey;
+}
+
+.page_accueil{
+  position:absolute;
+  bottom:-50%;
+  right:5%;
+  color:red;
+}
+
+
+/*
+ * 
+ * CSS DE LA BARRE DE FOND ET TETE DE PAGE POUR INFORMATION SUPPLEMENTAIRES
+ *  
+ */
+
+.head{
+  position:absolute;
+  background-image: url(../image/head_page.jpg);
+	background-repeat: no-repeat;
+  background-size:100%;
+  height:25%;
+  top:0%;
+  right:0%;
+  left:0%;
+  border:1px black solid;
+  text-align:center;
+  font-size:xx-large;
+  border:1px grey solid;
+  background-color:grey;
+  color:black;
+}
+
+.footer>a{
+  text-decoration:none;
+  color:white;
+}
+
+.footer{
+  position:absolute;
+  padding-top:5px;
+  bottom:-75%;
+  left:0px;
+  right:0px;
+  height:15%;
+  text-align:center;
+  border:1px grey solid;
+  background-color:grey;
+  color:white;
+}
+
+.footer>a:hover{
+  color:white;
+  text-decoration:underline;
+}
+
+
+/*
+ * 
+ * AFFICHAGE ANNONCE
+ * 
+ */
+ 
+.ref_annonce{
+  display:block;
+  color:black;
+}
+
+ul.annonce{
+  position:absolute;
+  border:1px #008A37 solid;
+  border-radius:10px;
+  top:55%;
+  right:5%;
+  left:34%;
+  background-color:#0FAB5D;
+}
+
+li.annonce{
+  position:relative;
+  list-style-type:none;
+  border:1px #6B01D5 solid;
+  margin:2%;
+  background-color:#E0E6E3;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#EEFF99), to(#66EE33));
+  background: -webkit-linear-gradient(#EEFF99, #66EE33);
+  background: -moz-linear-gradient(#EEFF99, #66EE33);
+  background: -ms-linear-gradient(#EEFF99, #66EE33);
+  background: -o-linear-gradient(#EEFF99, #66EE33);
+  background: linear-gradient(#EEFF99, #66EE33);
+}
+
+.auteur{
+  position:absolute;
+  float:right;
+  left:80%;
+  top:0%;
+}
+
+.titre{
+  position:relative;
+  left:40%;
+  height:4%;
+  font-size:larger;
+  font-weight:bold;
+}
+
+.image{
+  position:relative;
+  margin-left:2%;
+  margin-right:2%;
+  float:left;
+  width:60px;
+  height:50px;
+  background: #f2f2f2;
+  font-size:smaller;
+}
+
+.description{
+  position:absolute;
+  top:40%;
+  font-size:small;
+}
+
+.prix{
+  position:relative;
+  float:right;
+  font-size:medium;
+  top:50%;
+}
+
+/*
+ * 
+ * BOUTON MODIFICATION ET SUPPRESSION DES ANNONCES
+ * 
+ */
+ 
+.push_modif,.left{
+  position:absolute;
+  bottom:30%;
+  left:9%;
+  width:30%;
+}
+
+.push_del,.right{
+  position:absolute;
+  bottom:30%;
+  right:9%;
+  width:30%;
+}
+
+.left{
+  background-color:#0FAB5D;
+  bottom:0%;
+  left:0%;
+  right:0%;
+  width:50%;
+  height:100%;
+}
+
+.right{
+  background-color:#0FAB5D;
+  bottom:0%;
+  right:0%;
+  width:50%;
+  height:100%;
+}
+
+/*
+ * 
+ * CSS TEST ET ERREUR
+ * 
+ */
+
+.deconnexion{
+  position:absolute;
+  z-index:10;
+  border:6px black double;
+  text-align:center;
+  top:24%;
+  right:9%;
+  left:76%;
+  background-color:#a7a7a7;
+}
+
+.erreur{
+  position:absolute;
+  z-index:10;
+  border: 1px black solid;
+  height:15%;
+  width:20%;
+  top:38%;
+  right:45%;
+  background-color:#E0E6E3;
+}
+
+.sup{
+  position:absolute;
+  top:0%;
+  width:100%;
+  height:30%;
+  padding-top:3%;
+  text-align:center;
+  border:1px black solid;
+  color:red;
+}
+
+.inf{
+  position:absolute;
+  bottom:0%;
+  width:100%;
+  height:50%;
+  padding-top:3%;
+  text-align:center;
+  border:1px black solid;
+}
